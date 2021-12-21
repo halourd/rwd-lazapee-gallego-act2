@@ -1,3 +1,16 @@
+:root {
+    --body-bg: #eff0f5;
+    --body-color: #424242;
+    --header-border-color: #cacaca;
+    --head-bg: #ffffff;
+    --links-color: #252f7b;
+    --links-hover: #f95031;
+    --table-borders: #eff0f5;
+    --table-hover: #ececec;
+    --button-save: #28a745;
+    --add-to-cart: #007bff;
+}
+
 * {
     margin: 0;
     padding: 0;
