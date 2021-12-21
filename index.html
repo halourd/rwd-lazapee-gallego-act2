@@ -1,98 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Home Page</title>
-   </head>
 
-   <body>
-      <header>
-         <nav>
-            <a href="index.html"> <img src="../images/lazapee-logo.png" alt="" style="width: 200px"></a>
-            <ul>
-               <a href="/account/account.html">
-                  <li>Account</li>
-               </a>
-               <a href="/cart.html">
-                  <li>Cart</li>
-               </a>
-            </ul>
-   
-            <ul>
-               <a href="/categories/electronic.html">
-                  <li>Electronic Devices</li>
-               </a>
-               <a href="/categories/health-beauty.html">
-                  <li>Health & Beauty</li>
-               </a>
-               <a href="/categories/babies-toys.html">
-                  <li>Babies & Toys</li>
-               </a>
-               <a href="/categories/groceries-pets.html">
-                  <li>Groceries & Pets</li>
-               </a>
-               <a href="/categories/home-living.html">
-                  <li>Home & Living</li>
-               </a>
-               <a href="/categories/fashion.html">
-                  <li>Fashion</li>
-               </a>
-            </ul>
-         </nav>
-      </header>
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Home Page</title>
+   <link rel="stylesheet" href="/style/common.css">
+</head>
 
+<body>
+   <header id="nav-container">
+      <nav id="nav-wrapper">
+         <a href="index.html" class="nav-item" id="nav-left"> <img src="../images/lazapee-logo.png" alt=""></a>
 
-      <hr>
-      <div>
-         <h1>Flash Sales</h1>
-         <div>
-            <a href="/products/groceries-pets/fruits-package.html"><img src="/images/products/groceries-pets/fruits-package.jpg" alt=""></a>
-            <div>
-               <a href="/products/groceries-pets/fruits-package.html"><strong>Fruit Package</strong> <i>P1200</i></a>
+         <ul class="nav-item" id="nav-category">
+            <a href="/categories/electronic.html" class="nav-item-link">
+               <li>Electronic Devices</li>
+            </a>
+            <a href="/categories/health-beauty.html" class="nav-item-link">
+               <li>Health & Beauty</li>
+            </a>
+            <a href="/categories/babies-toys.html" class="nav-item-link">
+               <li>Babies & Toys</li>
+            </a>
+            <a href="/categories/groceries-pets.html" class="nav-item-link">
+               <li>Groceries & Pets</li>
+            </a>
+            <a href="/categories/home-living.html" class="nav-item-link">
+               <li>Home & Living</li>
+            </a>
+            <a href="/categories/fashion.html" class="nav-item-link">
+               <li>Fashion</li>
+            </a>
+         </ul>
+
+         <ul class="nav-item" id="nav-right">
+            <a href="/cart.html" class="nav-item-link">
+               <li>Cart</li>
+            </a>
+            <a href="/account/account.html" class="nav-item-link">
+               <li>Account</li>
+            </a>
+         </ul>
+      </nav>
+   </header>
+
+   <hr>
+   <section id="main-container">
+      <h1>Flash Sales</h1>
+      <div class="body-product-wrap">
+         <div class="body-product-container-item">
+            <div class="body-product-img">
+               <a href="/products/groceries-pets/fruits-package.html"><img
+                  src="/images/products/groceries-pets/fruits-package.jpg" alt=""></a>
+            </div>
+            <div class="body-product-text">
+               <a href="/products/groceries-pets/fruits-package.html">
+                  <strong>Fruit Package</strong> 
+                  <i>P1200</i></a>
             </div>
          </div>
+
          <br>
-         <div>
-            <a href="/products/home-living/indoor-plant.html"><img src="/images/products/home-living/indoor-plant.jpg" alt=""></a>
-            <div>
+
+         <div class="body-product-container-item">
+            <div class="body-product-img">
+               <a href="/products/home-living/indoor-plant.html"><img src="/images/products/home-living/indoor-plant.jpg"
+                  alt=""></a>
+            </div>
+            <div class="body-product-text">
                <a href="/products/home-living/indoor-plant.html"><strong>Indoor Plant</strong> <i>P300</i></a>
             </div>
          </div>
+
          <br>
-         <div>
-            <a href="/products/babies-toys/baby-cars.html"><img src="/images/products/babies-toys/baby-cars.jpg" alt=""></a>
-            <div>
+
+         <div class="body-product-container-item">
+            <div class="body-product-img">
+               <a href="/products/babies-toys/baby-cars.html"><img src="/images/products/babies-toys/baby-cars.jpg"
+                  alt=""></a>
+            </div>
+            <div class="body-product-text">
                <a href="/products/babies-toys/baby-cars.html"><strong>Baby Cars</strong> <i> P150</i></a>
             </div>
          </div>
+
          <br>
-         <div>
-            <a href="/products/fashion/black-shirt.html"><img src="/images/products/fashion/black-shirt.jpg" alt=""></a>
-            <div>
+
+         <div class="body-product-container-item">
+            <div class="body-product-img">
+               <a href="/products/fashion/black-shirt.html"><img src="/images/products/fashion/black-shirt.jpg" alt=""></a>
+            </div>
+            <div class="body-product-text">
                <a href="/products/fashion/black-shirt.html"><strong>Black Shirt</strong> <i> P400</i></a>
             </div>
          </div>
       </div>
-      <hr>
-      <footer>
+   </section>
+
+   <hr>
+   <footer id="footer-container">
+      <div id="footer-copyright">
          <p>&copy; Lazapee 2020</p>
-         <ul>
+      </div>
+      <div id="footer-soc-med">
+         <div id="wrapper">
             <li><strong>Follow Us</strong></li>
-            <li>
-               <a href="https://facebook.com" target="_blank"><img src="./../images/socials/facebook.png" alt=""></a>
-            </li>
-            <li>
-               <a href="https://instagram.com" target="_blank"><img src="./../images/socials//instagram.png" alt=""></a>
-            </li>
-            <li>
-               <a href="https://twitter.com" target="_blank"><img src="./../images/socials/twitter.png" alt=""></a>
-            </li>
-            <li>
-               <a href="https://youtube.com" target="_blank"><img src="./../images/socials/youtube.png" alt=""></a>
-            </li>
-         </ul>
-      </footer>
-   </body>
+            <ul>
+               <li>
+                  <a href="https://facebook.com" target="_blank"><img src="./../images/socials/facebook.png" alt=""></a>
+               </li>
+               <li>
+                  <a href="https://instagram.com" target="_blank"><img src="./../images/socials//instagram.png" alt=""></a>
+               </li>
+               <li>
+                  <a href="https://twitter.com" target="_blank"><img src="./../images/socials/twitter.png" alt=""></a>
+               </li>
+               <li>
+                  <a href="https://youtube.com" target="_blank"><img src="./../images/socials/youtube.png" alt=""></a>
+               </li>
+            </ul>
+      </div>
+   </div>
+   </footer>
+</body>
+
 </html>
