@@ -21,7 +21,7 @@
 #main-container {
     background-color: var(--body-bg);
     padding: 50px;
-    height: 80%
+    /* height: 80% */
 }
 
 #main-container h1 {
@@ -285,6 +285,19 @@ td a:hover {
         height:0;
         opacity:0;
         visibility: collapse;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    #main-container,
+    #prod-container,
+    #table-acc-edit-container,
+    #main-cart-container {
+        padding: 0;
+    }  
+    
+    h1 {
+        padding: 20px 0px;
     }
 }
 
