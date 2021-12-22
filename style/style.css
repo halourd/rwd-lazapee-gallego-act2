@@ -258,6 +258,7 @@ td a:hover {
     color: var(--links-hover);
 }
 
+
 @media only screen and (max-width: 1275px) {
     tr .cart-placed-on {
         display:none;
@@ -276,6 +277,10 @@ td a:hover {
         opacity:0;
         visibility: collapse;
     }
+
+    .cart-colspan{
+        column-span: 4;
+    }
 }
 
 @media only screen and (max-width: 700px) {
@@ -291,6 +296,7 @@ td a:hover {
 @media only screen and (max-width: 440px) {
     #main-container,
     #prod-container,
+    #table-container,
     #table-acc-edit-container,
     #main-cart-container {
         padding: 0;
