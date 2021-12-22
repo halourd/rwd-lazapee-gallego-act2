@@ -6,6 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Cart</title>
       <link rel="stylesheet" href="/style/common.css">
+      <link rel="stylesheet" href="/style/style.css">
    </head>
    <body>
       <header id="nav-container">
@@ -46,17 +47,18 @@
       </header>
 
       
-      <div>
+      <section id="main-cart-container">
          <h1>Cart</h1>
-         <div>
-            <table border="1">
+         <div class="main-cart-table-wrapper">
+            <table class="main-cart-table">
                <th>Order #</th>
                <th>Placed On</th>
                <th>Items</th>
                <th>Quantity</th>
                <th>Total</th>
+               <th></th>
 
-               <tr>
+               <tr class="cart-table-rows">
                   <td>320819449488519</td>
                   <td>24/09/2020</td>
                   <td>Headphone</td>
@@ -64,7 +66,7 @@
                   <td>P2500</td>
                   <td><a href="#">Edit</a> <a href="#">Delete</a></td>
                </tr>
-               <tr>
+               <tr class="cart-table-rows">
                   <td>189267874530189</td>
                   <td>24/09/2020</td>
                   <td>Headphone</td>
@@ -72,7 +74,7 @@
                   <td>P4000</td>
                   <td><a href="#">Edit</a> <a href="#">Delete</a></td>
                </tr>
-               <tr>
+               <tr class="cart-table-rows">
                   <td>836749810938219</td>
                   <td>24/09/2020</td>
                   <td>Headphone</td>
@@ -81,7 +83,7 @@
                   <td><a href="#">Edit</a> <a href="#">Delete</a></td>
                </tr>
 
-               <tr>
+               <tr class="cart-table-rows">
                   <td colspan="4">Shipping</td>
                   <td colspan="2">P60</td>
                </tr>
@@ -92,7 +94,7 @@
                </tr>
             </table>
          </div>
-      </div>
+      </section>
 
       
       <footer id="footer-container">
